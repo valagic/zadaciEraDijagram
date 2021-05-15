@@ -2,6 +2,11 @@ drop database if exists frizerskisalon;
 create database frizerskisalon;
 use frizerskisalon;
 
+/*U frizerskom salonu radi više djelatnica.
+Jedna djelatnica na dan radi s više korisnika.
+Korisnik tijekom jednog posjeta koristi jednu usluga.*/
+
+
 create table radnja (
 	id int not null primary key auto_increment,
 	naziv varchar(50) not null,
