@@ -2,6 +2,14 @@ drop database if exists udrugazazastituzivotinja;
 create database udrugazazastituzivotinja;
 use udrugazazastituzivotinja;
 
+/*U udruzu radi više osoba. 
+Jedna osoba se brine za jednog ili više štiæenika udruge. 
+Štiæenici udruge su životinje. 
+Svaki štiæenik se nalazi u jednom prostoru.
+
+*/
+
+
 create table lokacija (
 	id int not null primary key auto_increment,
 	naziv varchar(30) not null,
