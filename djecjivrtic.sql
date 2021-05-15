@@ -2,6 +2,12 @@ drop database if exists djecjivrtic;
 create database djecjivrtic;
 use djecjivrtic;
 
+/*U djeèjem vrtiæu postoji više odgojnih skupina. 
+Svaka odgojna skupina ima više djece 
+i vodi ih jedna odgajateljica. 
+Odgajateljica ima jednu struènu spremu.*/
+
+
 create table vrtic (
 	id int not null primary key auto_increment,
 	naziv varchar(50) not null,
