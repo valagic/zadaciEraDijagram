@@ -2,6 +2,14 @@ drop database if exists taxisluzba;
 create database taxisluzba;
 use taxisluzba;
 
+
+/*Taksi tvrtka ima više vozila. 
+Jedno vozilo vozi jedan vozaè. 
+U jednoj vožnji vozaè može prevesti više putnika. 
+Jedan putnik se naravno može tijekom 
+vremena imati više vožnji.*/
+
+
 create table tvrtka (
 	id int not null primary key auto_increment,
 	naziv varchar(50) not null,
